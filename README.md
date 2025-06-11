@@ -61,7 +61,7 @@ terrible-jokes/
 <h2>📦 Installation</h2>
 
 <pre>
-git clone https://github.com/yourusername/terrible-jokes.git
+git clone https://github.com/teemagoddowell/terrible-jokes.git
 cd terrible-jokes
 npm install
 npm start
