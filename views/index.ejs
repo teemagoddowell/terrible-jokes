@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title><%= websiteName %></title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Outfit&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>😂 <%= websiteName %></h1>
+  </header>
+
+  <main>
+    <div class="joke-container">
+      <p class="joke-text fade-in">
+        <%- jokes %>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; <%= ccYear %> <%= websiteName %>. Refresh for another terrible joke.</p>
+  </footer>
+
+</body>
+</html>
